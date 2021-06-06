@@ -5,6 +5,8 @@ import java.awt.Dimension;
 
 import javax.swing.JFrame;
 
+//I changed this line
+
 public class Game extends Canvas implements Runnable{
 
 	public static JFrame frame;
