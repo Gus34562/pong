@@ -13,13 +13,9 @@ public class Coin {
     // current position of the coin on the board grid
     private Point pos;
 
-    public Coin(int x, int y) {
-        // load the assets
-        loadImage();
-
-        // initialize the state
-        pos = new Point(x, y);
-    }
+    public Coin(){}
+	
+	//Adicionei essa linha
 
     private void loadImage() {
         try {
